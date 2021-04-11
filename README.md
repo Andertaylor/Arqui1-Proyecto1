@@ -3,10 +3,10 @@
 EL siguiente es el desarrollo de una aplicación para mejorar el contraste de una imagen en escala de grises, utilizando el lenguaje de programación Python y la arquitectura ARM. A continuación se presentan las generalidades que se requieren para la ejecución del proyecto.
 
 # Características del sistema operativo, lenguajes y ambiente de programación:
-Versión de Ubuntu: Ubuntu 20.04.2 LTS, Release:	20.04
-Versión de Python: Python 3.8.5
-Versión de pip3: pip 21.0.1 
-Ambiente de programación en Python: Pycharm Community Edition
+  1. Versión de Ubuntu: Ubuntu 20.04.2 LTS, Release:	20.04
+  2. Versión de Python: Python 3.8.5
+  3. Versión de pip3: pip 21.0.1 
+  4. Ambiente de programación en Python: Pycharm Community Edition
 
 # Instalación de dependencias para Python:
 

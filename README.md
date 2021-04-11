@@ -29,9 +29,11 @@ EL siguiente es el desarrollo de una aplicación para mejorar el contraste de un
 # Instalación de pip3:
   
   1. Se prepara la instalación con el comando:
+    
     $sudo apt update
 
   3. Se procede a instalar:
+    
     $sudo apt install python3-pip 
 
 # Instalación de dependencias para Pycharm
@@ -49,16 +51,20 @@ Desde el centro de Software de Ubuntu, se busca el programa Pycharm Community Ed
 La siguiente sección fue tomada del curso de Arquitectura de Computadores 1, donde la instalación de estas herramientas se basó en el siguiente enlace: https://mynewt.apache.org/latest/get_started/native_install/cross_tools.html
 
   1. Abrimos una terminal con la combinación de teclas: 
+    
     ctrl+alt+T
   
   2. Abrimos con el comando cd la ruta de la carpeta donde se va a ejecutar el código de ARM, luego se ejecuta el siguiente comando:
+    
     $sudo apt-get install gcc-arm-linux-gnueabi gcc-arm-none-eabi
    
   3. Para enlazar y compilar el código de ARM, se ejecutan los siguientes comandos:
+    
     $arm-linux-gnueabi-as <nombre del archivo>.s -o <nombre del archivo>.o
     $arm-linux-gnueabi-ld <nombre del archivo>.o -o <nombre del archivo>
   
   3. En este cas de va a utilizar QEMU para ejecutar el programa:
+    
     $sudo apt get install qemu
     $qemu-arm <nombre del archivo>
   

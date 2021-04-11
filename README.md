@@ -11,15 +11,19 @@ EL siguiente es el desarrollo de una aplicación para mejorar el contraste de un
 # Instalación de dependencias para Python:
 
   1. Abrimos una terminal con la combinación de teclas: 
+    
     ctrl+alt+T
   
   2. Podemos revisar la versión actual que Python que se tiene con el comando:     
+    
     $python --version
   
   3. Si la versión que se tiene es menor a 3.8.x, nos preparamos a instalar la nueva versión con el comando: 
+    
     $sudo apt update
   
   4. Se procede a instalar la versión:
+  
     $sudo apt install python3.8
 
 # Instalación de pip3:
